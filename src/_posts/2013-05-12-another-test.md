@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is another test, since the other one did ok.
-tags: test
+tags: test things
 categories: test update
 ---
 

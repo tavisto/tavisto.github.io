@@ -1,0 +1,96 @@
+body {
+  color: #cccccc;
+  background-color: #191919;
+}
+
+pre {
+  font-family: Source Code Pro, Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+code {
+    background-color: #002B36;
+    color: #268BD2 !important;
+}
+
+a {
+  color: #ff5a00;
+}
+a:hover,
+a:focus {
+  color: #ff5a00;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #cccccc;
+}
+
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  padding: 4px 4px 4px 4px;
+  font-size: 13px;
+  color: #4c4c4c;
+  border: 1px solid #ccc;
+}
+
+.well {
+  background-color: #333333;
+}
+
+
+/*****************************************************************************/
+/* Layout
+/*****************************************************************************/
+.content {
+	padding-top: 50px;
+	/* 50px to make the container go all the way to the bottom of the topbar */
+}
+/*****************************************************************************/
+/* Posts
+/*****************************************************************************/
+
+/* standard */
+#post pre {
+      padding: 0 .4em;
+}
+
+#post code {
+    background-color: #002B36;
+    color: #268BD2 !important;
+}
+
+#post pre code {
+    background-color: #002B36;
+    color: #268BD2 !important;
+    border: none;
+}
