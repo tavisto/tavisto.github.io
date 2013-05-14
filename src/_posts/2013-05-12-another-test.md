@@ -1,11 +1,13 @@
 ---
 layout: post
-title: This is a test, I hope it goes well
+title: This is another test, since the other one did ok.
 tags: test
 categories: test update
 ---
 
-Hello, Dave. Things are looking good.
+Since the last post did ok, I wrote another one.
+
+[Test Post]({% post_url 2013-05-12-test %})
 
 # H1
 ## H2
@@ -16,13 +18,14 @@ Hello, Dave. Things are looking good.
 
 > this is a
 > blockquote
-> This is a blockquote with more than one 
-> > level 
+> This is a blockquote with more than one
+> > level
+
 > Blockquote with a
-> ## Header in it
+> ### Header in it
 
 
-* List item 
+* List item
 * List Item
 + List item
 - List item
@@ -31,16 +34,18 @@ Hello, Dave. Things are looking good.
 2. Ordered list
 3. Ordered list
 4. Ordered list
+4. Ordered list
+4. Ordered list
 
 * list item with a blockquote:
-
-     > This is a blockquote
-     > inside a list item.
+    > This is a blockquote
+    > inside a list item.
 
 * A list item with a code block:
    {% highlight python linenos %}
    import pprint
    pprint.pprint("Hello World!")
+   things
    {% endhighlight %}
 
 ***
@@ -61,3 +66,4 @@ Aww, it looks like the `<blink>` tag is dead.
 This post is {{ page.content | number_of_words }} words long!
 
 {% gist 4455203 %}
+{% gist 5566550 %}
