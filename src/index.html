@@ -5,9 +5,13 @@ title: Tavisto.net
 
 <div id="home">
   <h1>Blog Posts</h1>
-  <ul class="posts">
+  <ul class="well posts">
     {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><div><i class="icon-tag"></i> {{ post.tags | array_to_sentence_string  }}</div></li>
+    <li>
+        <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="tags"><i class="icon-2x icon-tags"></i> {{ post.tags | array_to_sentence_string  }}</div>
+        <div class="categories" ><i class="icon-2x icon-folder-open"></i> {{ post.categories | array_to_sentence_string  }}</div>
+    </li>
     {% endfor %}
   </ul>
 </div>

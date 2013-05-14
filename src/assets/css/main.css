@@ -94,3 +94,11 @@ input[type="color"],
     color: #268BD2 !important;
     border: none;
 }
+
+.tags {
+    color: #268BD2;
+}
+
+.categories {
+    color: #268BD2;
+}
