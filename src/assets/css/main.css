@@ -12,7 +12,7 @@ code {
 }
 
 a {
-  color: #ff5a00;
+    color: #268BD2;
 }
 a:hover,
 a:focus {
@@ -95,10 +95,6 @@ input[type="color"],
     border: none;
 }
 
-.tags {
-    color: #268BD2;
-}
-
-.categories {
-    color: #268BD2;
+.tnet-icons{
+  color: #ff5a00;
 }

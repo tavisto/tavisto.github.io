@@ -3,6 +3,7 @@ layout: post
 title: This is another test, since the other one did ok.
 tags: test things stuff
 categories: test update
+icon: code
 ---
 
 Since the last post did ok, I wrote another one.

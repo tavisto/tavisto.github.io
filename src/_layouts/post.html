@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
+<div class="page-header">
+    <h2><i class="icon-1x icon-{{page.icon}} tnet-icons"></i>
+        {{ page.title }}
+        <small>{{ page.date | date_to_string }}</small>
+    </h2>
+</div>
 <div id="post">
 {{ content }}
 </div>

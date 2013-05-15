@@ -6,7 +6,7 @@
     width: 100%;
 }
 .highlight .line-numbers, html .gist .gist-file .gist-syntax .gist-highlight .line-numbers {
-    background: url("/assets/images/noise.png?1328348723") repeat scroll left top #073642 !important;
+    background: url("/assets/img/noise.png?1328348723") repeat scroll left top #073642 !important;
     border-radius: 0 0 0 0;
     border-right: 1px solid #00232C !important;
     box-shadow: -1px 0 #083E4B inset;
@@ -39,7 +39,7 @@ html .gist .gist-file .gist-syntax .gist-highlight {
     background: none repeat scroll 0 0 #002B36 !important;
 }
 html .gist .gist-file .gist-meta {
-    background: url("/assets/images/noise.png?1328348723") repeat scroll left top #073642;
+    background: url("/assets/img/noise.png?1328348723") repeat scroll left top #073642;
     border: 1px solid #083E4B !important;
     color: #586E75;
     font-size: 0.7em !important;
@@ -70,7 +70,7 @@ html .gist .gist-file .gist-meta a[href*="raw"] {
     top: 0.4em;
 }
 pre {
-    background: url("/assets/images/noise.png?1328348723") repeat scroll left top #002B36;
+    background: url("/assets/img/noise.png?1328348723") repeat scroll left top #002B36;
     border: 1px solid #05232B;
     border-radius: 0.4em 0.4em 0.4em 0.4em;
     color: #93A1A1;
@@ -101,7 +101,7 @@ p pre code, li pre code {
     font-size: 1em !important;
 }
 .pre-code, html .gist .gist-file .gist-syntax .gist-highlight pre, .highlight code {
-    background: url("/assets/images/noise.png?1328348723") repeat scroll left top #002B36 !important;
+    background: url("/assets/img/noise.png?1328348723") repeat scroll left top #002B36 !important;
     color: #93A1A1 !important;
     display: block;
     font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace !important;
@@ -330,7 +330,7 @@ figure.code .highlight {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: url("/assets/images/code_bg.png?1328348723") repeat-x scroll center top #AAAAAA;
+    background: url("/assets/img/code_bg.png?1328348723") repeat-x scroll center top #AAAAAA;
     border-color: #CBCBCB #A5A5A5 -moz-use-text-color;
     border-image: none;
     border-style: solid solid none;
