@@ -96,5 +96,11 @@ input[type="color"],
 }
 
 .tnet-icons{
-  color: #ff5a00;
+    color: #ff5a00;
+}
+.tnet-icons:hover {
+    text-decoration: none;
+}
+.hover-none:hover {
+    text-decoration: none;
 }

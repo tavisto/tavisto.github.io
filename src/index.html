@@ -6,14 +6,13 @@ title: Tavisto.net
   <ul class="media-list">
     {% for post in site.posts %}
     <li class="media">
-    <a class="pull-left"href="{{ post.url }}">
+    <a class="pull-left hover-none" href="{{ post.url }}">
         <i class="icon-4x icon-{{post.icon}} tnet-icons"></i>
     </a>
     <div class="media-body">
         {{ post.date | date_to_string }}
         <div class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></div>
         <div><i class="icon-1x icon-tags tnet-icons"></i> {{ post.tags | array_to_sentence_string  }}</div>
-        <div><i class="icon-1x icon-folder-open tnet-icons"></i> {{ post.categories | array_to_sentence_string  }}</div>
     </li>
     {% endfor %}
   </ul>
