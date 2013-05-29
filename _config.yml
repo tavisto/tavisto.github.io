@@ -1,6 +1,11 @@
-name: Tavisto.net
+name: Tavisto
+description: A place to share interesting thigs I learn
+url: http://tavisto.net
 pygments: true
 source: src
 destination: site
 timezone: America/Denver
 permalink: pretty
+only_first_p:
+    show_read_more_link: False
+    read_more_link_text: 'Read more'
