@@ -1,9 +1,9 @@
 name: Tavisto
 description: A place to share interesting thigs I learn
 url: http://tavisto.net
+safe: true
+lis: false
 pygments: true
-source: src
-destination: site
 timezone: America/Denver
 permalink: pretty
 only_first_p:
