@@ -6,6 +6,3 @@ lis: false
 pygments: true
 timezone: America/Denver
 permalink: pretty
-only_first_p:
-    show_read_more_link: False
-    read_more_link_text: 'Read more'
