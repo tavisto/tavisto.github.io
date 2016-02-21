@@ -2,17 +2,26 @@
 layout: default
 title: Tavisto.net
 ---
-    <div class="page-header"><h2>Blog Posts</h2></div>
-  <ul class="media-list">
-    {% for post in site.posts %}
-    <li class="media">
-    <a class="pull-left hover-none" href="{{ post.url }}">
-        <i class="icon-4x icon-{{post.icon}} tnet-icons"></i>
-    </a>
-    <div class="media-body">
-        {{ post.date | date_to_string }}
-        <div class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></div>
-        <div><i class="icon-1x icon-tags tnet-icons"></i> {{ post.tags | array_to_sentence_string  }}</div>
-    </li>
-    {% endfor %}
-  </ul>
+<div class="container">
+    <div class="page-header">
+        <h2>About me</h2>
+    </div>
+    <p>My name is Tavis Aitken, I am a devops engineer currently living in
+    Denver, CO.</p>
+    <p>I enjoy programming, snowboarding and hanging out with my friends.</p>
+    <h3>Follow me everywhere!</h3>
+    <div class="btn-group">
+        <a href="https://github.com/tavisto" target="_blank" class="btn  btn-inverse">
+            <i class="icon-2x icon-github-sign tnet-icons"></i>
+        </a>
+        <a href="https://twitter.com/tavisto" target="_blank" class="btn  btn-inverse" >
+            <i class="icon-2x icon-twitter-sign tnet-icons"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/tavisaitken" target="_blank" class="btn  btn-inverse">
+            <i class="icon-2x icon-linkedin-sign tnet-icons"></i>
+        </a>
+        <a href="http://www.flickr.com/photos/tavisto/" target="_blank"class="btn btn-inverse">
+            <i class="icon-2x icon-camera tnet-icons"></i>
+        </a>
+    </div>
+</div>
