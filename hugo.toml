@@ -1,0 +1,44 @@
+baseURL = 'https://localhost:1313/'
+title = 'Tavisto.net'
+theme = 'hugo-coder'
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+  gravatar = "tavisto@tavisto.net"
+  since = 2009
+
+[taxonomiet]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/tavisto/"
+[[params.social]]
+  name = "Bluesky"
+  icon = "fa-brands fa-bluesky fa-2x"
+  weight = 3
+  url = "https://bsky.app/profile/bsky.tavisto.net"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "/posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "/about/"

@@ -1,8 +1,0 @@
-name: Tavisto
-description: A place to share interesting thigs I learn
-url: http://tavisto.net
-safe: true
-lis: false
-pygments: true
-timezone: America/Denver
-permalink: pretty
