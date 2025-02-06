@@ -1,0 +1,18 @@
+[reading_time]
+one = "One-minute read"
+other = "{{ .Count }}-minute read"
+
+[page_not_found]
+other = "+++ OUT OF CHEESE ERROR +++"
+
+[page_does_not_exist]
+other = "+++ MELLON MELLON MELLON +++"
+
+[head_back]
+other = "<a href=\"{{ . }}\">+++ REDO FROM START +++</a>"
+
+[link_to_heading]
+other = "Link to heading"
+
+[see_also]
+other = "Catch the other posts about"

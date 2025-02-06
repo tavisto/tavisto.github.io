@@ -4,6 +4,8 @@ theme = 'hugo-coder'
 
 languagecode = "en"
 defaultcontentlanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
 
 [pagination]
 pagerSize = 20
@@ -12,15 +14,23 @@ pagerSize = 20
 style = "github-dark"
 
 [params]
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+  author = "Tavis Aitken"
+  license = '<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA-4.0</a>'
+  description = "Tavisto's space to write about things."
+  info = [ "Leader", "Technology Wrangler","Productivity Enthusiast" ]
+  keywords = "blog,developer,sre,devops,productivity"
   gravatar = "tavisto@tavisto.net"
   since = 2009
 
-[taxonomiet]
+  # Theme Settings
+  colorScheme = "auto" # Let the browser decide
+  hidecolorschemetoggle = false # Let the user decide
+
+[taxonomies]
   category = "categories"
   series = "series"
   tag = "tags"
+  author = "authors"
 
 # Social links
 [[params.social]]
@@ -33,12 +43,33 @@ style = "github-dark"
   icon = "fa-brands fa-bluesky fa-2x"
   weight = 3
   url = "https://bsky.app/profile/bsky.tavisto.net"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/tavisaitken/"
+[[params.social]]
+  name = "RSS"
+  icon = "fa-solid fa-rss fa-2x"
+  weight = 6
+  url = "https://tavisto.net/index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Posts"
   weight = 1
   url = "/posts/"
 [[menu.main]]
   name = "About"
   weight = 2
   url = "/about/"
+
+[languages]
+  [languages.en]
+    [[page_does_not_exist]]
+      other = "Nothing to see here, move along."
+[[languages.en.page_not_found]]
+  other = "Page Not Found, try another universe."
+[[languages.en.head_back]]
+  other = "<a href=\"{{ . }}\">Redo from start</a>."
