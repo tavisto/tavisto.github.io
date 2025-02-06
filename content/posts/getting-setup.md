@@ -1,6 +1,5 @@
 +++
 date = '2025-02-05'
-draft = true
 title = 'Getting Set Up for Productivity'
 categories = ["config", "productivity"]
 tags = ["asdf", "homebrew", "nix"]
