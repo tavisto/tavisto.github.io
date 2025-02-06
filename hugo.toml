@@ -64,12 +64,3 @@ style = "github-dark"
   name = "About"
   weight = 2
   url = "/about/"
-
-[languages]
-  [languages.en]
-    [[page_does_not_exist]]
-      other = "Nothing to see here, move along."
-[[languages.en.page_not_found]]
-  other = "Page Not Found, try another universe."
-[[languages.en.head_back]]
-  other = "<a href=\"{{ . }}\">Redo from start</a>."

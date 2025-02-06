@@ -4,6 +4,7 @@ title = 'Getting Set Up for Productivity'
 categories = ["config", "productivity"]
 tags = ["asdf", "homebrew", "nix"]
 series = ["Productivity"]
+description = "Getting your digital tools Set up"
 +++
 
 # My First Post
