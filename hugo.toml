@@ -22,9 +22,12 @@ style = "github-dark"
   gravatar = "tavisto@tavisto.net"
   since = 2009
 
-  # Theme Settings
+# Theme Settings
   colorScheme = "auto" # Let the browser decide
   hidecolorschemetoggle = false # Let the user decide
+
+[params.googleTagManager]
+  id = "GTM-WS5QDS"
 
 [taxonomies]
   category = "categories"
@@ -64,3 +67,4 @@ style = "github-dark"
   name = "About"
   weight = 2
   url = "/about/"
+
