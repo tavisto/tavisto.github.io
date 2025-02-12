@@ -1,5 +1,5 @@
 +++
-date = '2025-02-05'
+date = '2025-02-05T07:00:00-08:00'
 title = 'Getting Set Up for Productivity'
 categories = ["config", "productivity"]
 tags = ["asdf", "homebrew", "nix"]

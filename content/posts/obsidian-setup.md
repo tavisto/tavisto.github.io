@@ -1,5 +1,5 @@
 +++
-date = 2025-02-10
+date = "2025-02-10T07:00:00-08:00"
 title = "Obsidian Setup"
 description = "A brief overview of how to set up Obsidian and sync your notes"
 slug = "obsidian-setup"

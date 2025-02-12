@@ -1,5 +1,5 @@
 +++
-date = 2025-02-11
+date = "2025-02-11T07:00:00-08:00"
 title = "Obsidian Plugins"
 description = "A few plugins that make Obsidian worth it."
 slug = "obsidian-plugins"
