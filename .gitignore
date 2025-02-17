@@ -2,3 +2,4 @@ _site
 public/
 resources/
 .obsidian/
+**.DS_Store
