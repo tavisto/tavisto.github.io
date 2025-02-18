@@ -5,6 +5,7 @@ categories = ["config", "productivity"]
 tags = ["asdf", "homebrew", "nix"]
 series = ["Productivity"]
 description = "Getting your digital tools Set up"
+summary = "This is my reintroduction to posting anything in a really long time. I'm excited to share my thoughts, configs and other productivity setups that have made my life more organized."
 +++
 
 # My First Post

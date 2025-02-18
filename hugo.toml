@@ -68,3 +68,8 @@ style = "github-dark"
   weight = 2
   url = "/about/"
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']

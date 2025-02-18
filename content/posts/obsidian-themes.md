@@ -7,6 +7,7 @@ authors = ["Tavis Aitken"]
 tags = ["obsidian", "themes"]
 categories = ["productivity"]
 series = ["Obsidian"]
+summary = "First, we set up syncing, then we became productive. Now, let's look at making it all look nice."
 +++
 
 # Making this look good
@@ -135,4 +136,6 @@ Beyond the AnuPuccin there are quite a lot of other themes out there, but not al
 ## Make it your own
 
 Find something that works for you and that you enjoy looking at all day. If it's nice to look at and easy to read you will be much more likely to keep it open. I tend to prefer dark themes most of the time, but it is nice to have a light mode for higher contrast sometimes.
+
+ -- Tavis
 

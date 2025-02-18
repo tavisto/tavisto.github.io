@@ -3,6 +3,7 @@ title = 'About Me'
 description = 'A little bit about Tavis'
 date = '2025-02-05'
 aliases = ['about', 'about-me', 'contact']
+summary = "I started working with computers back in the 1990s when I was a kid. We had a Macintosh Performa 450 that I would play games on and eventually started to learn how to modify things in the resource fork to make things work the way I wanted. Ever since then I have been tinkering with computers and bending them to my will."
 +++
 
 # How did I get into computers?

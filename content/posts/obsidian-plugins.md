@@ -7,6 +7,7 @@ authors = ["Tavis Aitken"]
 tags = ["obsidian", "plugins", 'task-management']
 categories = ["productivity"]
 series = ["Obsidian"]
+summary = "Now that we have a simple vault setup and can read and write notes across devices, let's figure out how to do some more advanced things to make this more useful than just a shiny text editor. All the plugins I use are available in the community plugins section of the Obsidian app. There is a handy search feature that can help you find most types of things you might want to do. I highly recommend starting out simple and only adding plugins when you really understand your needs and how they can be met with a plugin. I have started over more than once because I had a lot of plugins that I wasn't using or were conflicting with each other."
 +++
 
 # Plugins

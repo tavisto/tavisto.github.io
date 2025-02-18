@@ -7,6 +7,7 @@ authors = ["Tavis Aitken"]
 tags = ["obsidian", "syncing", "cloud-storage"]
 categories = ["productivity"]
 series = ["Obsidian"]
+summary = "[Obsidian](https://obsidian.md) is a general purpose note-taking tool with a neat trick. Its clever design uses the fact that everything is simply markdown configured and manipulated using plugins. It has become very popular with the [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) method of note taking and knowledge management. The main idea being that you write down all your ideas in a simple way that you can search and reference later. It has some really great built-in features that make it very useful even right out of the box with the default configurations. Things can be made as complex or as simple as you care to make them depending on your needs and desires."
 +++
 
 # What is Obsidian?
